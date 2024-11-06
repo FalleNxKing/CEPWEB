@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rural Tourism Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Explore</a></li>
+        <li><a href="#">Categories</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+      <div class="search-bar">
+        <input type="text" placeholder="Search locations">
+        <button>Search</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div id="map"></div>
+      <div class="category-filters">
+        <button class="filter-btn" data-category="religious">Religious</button>
+        <button class="filter-btn" data-category="nature">Nature</button>
+        <button class="filter-btn" data-category="historical">Historical</button>
+        <button class="filter-btn" data-category="cultural">Cultural</button>
+        <button class="filter-btn" data-category="adventure">Adventure</button>
+        <button class="filter-btn" data-category="agricultural">Agricultural</button>
+      </div>
+    </section>
+
+    <section class="featured-destinations">
+      <!-- Featured destinations content -->
+    </section>
+
+    <section class="location-details">
+      <!-- Location details content -->
+    </section>
+  </main>
+
+  <footer>
+    <!-- Footer content -->
+  </footer>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+  <script src="lib/google-maps-api.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
